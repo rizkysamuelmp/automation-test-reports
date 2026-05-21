@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automation Test Report</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f5f5; color: #333; }
+    .header { background: #1565C0; color: white; padding: 24px 32px; }
+    .header h1 { font-size: 1.8em; font-weight: 600; }
+    .header p { opacity: 0.85; margin-top: 4px; }
+    .summary { display: flex; gap: 16px; padding: 24px 32px; flex-wrap: wrap; }
+    .card { background: white; border-radius: 8px; padding: 20px 28px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.12); min-width: 130px; text-align: center; }
+    .card .number { font-size: 2.4em; font-weight: 700; }
+    .card .label { font-size: 0.85em; color: #666; margin-top: 4px; }
+    .card.pass .number { color: #2e7d32; }
+    .card.fail .number { color: #c62828; }
+    .card.rate .number { color: #1565C0; }
+    .content { padding: 0 32px 32px; }
+    table { width: 100%; border-collapse: collapse; background: white;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.12); border-radius: 8px; overflow: hidden; }
+    th { background: #1565C0; color: white; padding: 10px 12px; text-align: left; font-weight: 500; }
+    td { padding: 8px 12px; border-bottom: 1px solid #eee; vertical-align: middle; }
+    tr:last-child td { border-bottom: none; }
+    a { color: #1565C0; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Automation Test Report</h1>
+    <p>Generated: 5/21/2026, 3:15:34 PM</p>
+  </div>
+  <div class="summary">
+    <div class="card"><div class="number">5</div><div class="label">Total TCs</div></div>
+    <div class="card pass"><div class="number">4</div><div class="label">Passed</div></div>
+    <div class="card fail"><div class="number">1</div><div class="label">Failed</div></div>
+    <div class="card rate"><div class="number">80.0%</div><div class="label">Pass Rate</div></div>
+  </div>
+  <div class="content">
+    <table>
+      <thead>
+        <tr>
+          <th>TC ID</th>
+          <th>Status</th>
+          <th>Screenshot</th>
+          <th>Notes</th>
+          <th>Executed At</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      <tr style="background:#FFEBEE">
+        <td colspan="5" style="font-weight:bold;padding:10px 8px;">
+          Configuration Group - Add New &nbsp;
+          <span style="color:#2e7d32">4 passed</span> /
+          <span style="color:#c62828">1 failed</span>
+        </td>
+      </tr>
+        <tr>
+          <td style="padding-left:24px">CO-001</td>
+          <td>
+            <span style="background:#92D050;color:#FFFFFF;padding:2px 10px;border-radius:4px;font-weight:bold">
+              PASSED
+            </span>
+          </td>
+          <td><a href="screenshots/CO-001.png" target="_blank">View</a></td>
+          <td style="font-size:0.85em;color:#555"></td>
+          <td style="font-size:0.85em;color:#888">21/5/2026, 15.14.54</td>
+        </tr>
+        <tr>
+          <td style="padding-left:24px">CO-002</td>
+          <td>
+            <span style="background:#FF0000;color:#FFFFFF;padding:2px 10px;border-radius:4px;font-weight:bold">
+              FAILED
+            </span>
+          </td>
+          <td><a href="screenshots/CO-002.png" target="_blank">View</a></td>
+          <td style="font-size:0.85em;color:#555">Expected text not found on page: "Status must be filled. Please fill status"</td>
+          <td style="font-size:0.85em;color:#888">21/5/2026, 15.15.04</td>
+        </tr>
+        <tr>
+          <td style="padding-left:24px">CO-003</td>
+          <td>
+            <span style="background:#92D050;color:#FFFFFF;padding:2px 10px;border-radius:4px;font-weight:bold">
+              PASSED
+            </span>
+          </td>
+          <td><a href="screenshots/CO-003.png" target="_blank">View</a></td>
+          <td style="font-size:0.85em;color:#555"></td>
+          <td style="font-size:0.85em;color:#888">21/5/2026, 15.15.13</td>
+        </tr>
+        <tr>
+          <td style="padding-left:24px">CO-004</td>
+          <td>
+            <span style="background:#92D050;color:#FFFFFF;padding:2px 10px;border-radius:4px;font-weight:bold">
+              PASSED
+            </span>
+          </td>
+          <td><a href="screenshots/CO-004.png" target="_blank">View</a></td>
+          <td style="font-size:0.85em;color:#555"></td>
+          <td style="font-size:0.85em;color:#888">21/5/2026, 15.15.20</td>
+        </tr>
+        <tr>
+          <td style="padding-left:24px">CO-005</td>
+          <td>
+            <span style="background:#92D050;color:#FFFFFF;padding:2px 10px;border-radius:4px;font-weight:bold">
+              PASSED
+            </span>
+          </td>
+          <td><a href="screenshots/CO-005.png" target="_blank">View</a></td>
+          <td style="font-size:0.85em;color:#555"></td>
+          <td style="font-size:0.85em;color:#888">21/5/2026, 15.15.25</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

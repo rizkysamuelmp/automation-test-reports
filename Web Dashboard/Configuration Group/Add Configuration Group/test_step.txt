@@ -1,0 +1,17 @@
+Test Steps - Add Configuration Group
+=====================================
+Module  : Web Dashboard
+Menu    : Configuration Management > Configuration Group
+Feature : Add New Configuration Group
+
+Steps:
+1. Login to the application
+2. Click "Configuration Management" menu
+3. Click "Configuration Group" sub-menu
+4. Click "Add New Configuration Group" button
+5. Read configuration_group.xlsx, fill all of the fields according to each test case row, click the Save button, and take a screenshot
+   - Repeat this process until all rows have been executed
+6. For the positive case, add the datetime to Configuration Group Name to make it unique
+7. Screenshot evidence is saved per test case using the TC_ID as the filename (e.g. CO-001.png)
+8. Only execute the test cases defined in configuration_group.xlsx — do not create new ones
+9. Generate the test report
